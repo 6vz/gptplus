@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  user-select: none;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  background-color: #0f172a;
+}
+
+#input:focus {
+  outline: none;
+}
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+#subtitle {
+  color: white;
+}
+
+#input {
+  width: 92.5% !important;
+  height: 20% !important;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #1e293b;
+}
+
+#submit {
+  width: 99.5%;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  background-color: #1e293b;
+}
+
+#main {
+  width: 400px;
+  height: 700px;
+  padding: 7%;
+  overflow: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+#box {
+  width: 100%;
+  background-color: #1e293b;
+  padding: 5px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+#tip {
+  color: #fff;
+  font-size: 15px;
+}
+
+#result {
+  color: #fff;
+  font-size: 15px;
+}
+
+#footer {
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.key {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+}

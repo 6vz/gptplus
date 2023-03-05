@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "GPT+ (GPT Plus)",
+    "version": "1.0",
+    "description": "Uses the power of OpenAI gpt-turbo-3.5 to generate queries from you, without hassle and leaving your website.",
+    "icons": {
+      "48": "icon.png"
+    },
+    "permissions": [
+      "activeTab",
+      "http://*/*", 
+      "https://*/*",
+      "scripting"
+    ],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    }
+  }
+  
